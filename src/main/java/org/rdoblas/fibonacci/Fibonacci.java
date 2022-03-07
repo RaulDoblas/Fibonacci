@@ -1,6 +1,12 @@
 package org.rdoblas.fibonacci;
 
 public class Fibonacci {
+
+    /*
+    *
+    * Calcula el numero de fibonacci de forma iterativa
+    *
+     */
     public int compute(int value){
         if(value < 0){
             throw new RuntimeException();
